@@ -6,4 +6,18 @@ var swiper = new Swiper(".customerSwiper", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+        
+        },
+        768: {
+          slidesPerView: 3,
+        
+        },
+        1024: {
+          slidesPerView: 4,
+       
+        },
+      },
   });
