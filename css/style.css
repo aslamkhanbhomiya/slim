@@ -160,47 +160,278 @@
     font-display: swap;
 }
 @font-face {
-    font-family: 'Gilroy';
-    src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
-        url('../fonts/Gilroy-Medium.woff') format('woff');
-    font-weight: 500;
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-Bold.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Gilroy';
-    src: url('../fonts/Gilroy-MediumItalic.woff2') format('woff2'),
-        url('../fonts/Gilroy-MediumItalic.woff') format('woff');
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Black.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-BlackItalic.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-ExtraBold.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-BoldItalic.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Italic.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-MediumItalic.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-MediumItalic.woff') format('woff');
     font-weight: 500;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Gilroy';
-    src: url('../fonts/Gilroy-SemiBold.woff2') format('woff2'),
-        url('../fonts/Gilroy-SemiBold.woff') format('woff');
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Medium.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-SemiBold.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Kanit-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-Bold.woff2') format('woff2'),
+        url('../fonts/Kanit-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-Black.woff2') format('woff2'),
+        url('../fonts/Kanit-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Kanit-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/Kanit-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/Kanit-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-Italic.woff2') format('woff2'),
+        url('../fonts/Kanit-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Kanit-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Kanit-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-Medium.woff2') format('woff2'),
+        url('../fonts/Kanit-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/Kanit-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-SemiBold.woff2') format('woff2'),
+        url('../fonts/Kanit-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Gilroy';
-    src: url('../fonts/Gilroy-SemiBoldItalic.woff2') format('woff2'),
-        url('../fonts/Gilroy-SemiBoldItalic.woff') format('woff');
-    font-weight: 600;
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Kanit-MediumItalic.woff') format('woff');
+    font-weight: 500;
     font-style: italic;
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-Light.woff2') format('woff2'),
+        url('../fonts/Kanit-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-.kanit-regular-italic {
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-Regular.woff2') format('woff2'),
+        url('../fonts/Kanit-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-LightItalic.woff2') format('woff2'),
+        url('../fonts/Kanit-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Kanit-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-Thin.woff2') format('woff2'),
+        url('../fonts/Kanit-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+.kanit-font {
     font-family: "Kanit", sans-serif;
-    font-weight: 400;
-    font-style: italic;
   }
 body{
     font-family: 'Poppins';
@@ -210,16 +441,13 @@ body{
     font-weight: 600;
    
 }
-.kanit-regular{
-    font-family: "Kanit", sans-serif;
-}
 
-.weight-loss{
-    font-family: 'Gilroy';
-    font-style: italic;
+
+.playfair-display{
+    font-family: 'Playfair Display';
 }
 .heading-1{
-    font-family: "Kanit", sans-seri;
+    font-family: "Kanit", sans-serif;
 }
 .about-us-sec{
     background-image: url("../image/about-bg.jpg");
