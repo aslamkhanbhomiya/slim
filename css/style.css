@@ -479,4 +479,16 @@ body{
     background-image: url('data:image/svg+xml,<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="6" cy="6" r="6" fill="%23ED7D4D"/></svg>');
 background-size: 12px;
 }
+.form-column::-webkit-scrollbar {
+   width: 10px;
+   border-radius: 8px;
+  }
+  .form-column::-webkit-scrollbar-track {
+    background-color: #F8F8F5;
+  }
+  .form-column::-webkit-scrollbar-thumb {
+    background-color:   #B5BEB9;
+    border-radius: 8px;
+    height: 98px;
+  }
 
