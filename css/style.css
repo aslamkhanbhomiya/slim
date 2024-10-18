@@ -491,4 +491,10 @@ background-size: 12px;
     border-radius: 8px;
     height: 98px;
   }
-
+.line-limit{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 6; /* number of lines to show */
+            line-clamp: 6; 
+    -webkit-box-orient: vertical;
+}
