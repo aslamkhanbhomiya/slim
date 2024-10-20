@@ -507,3 +507,10 @@ background-size: 12px;
             line-clamp: 6; 
     -webkit-box-orient: vertical;
 }
+.custom-range::-webkit-slider-thumb{
+
+    -webkit-appearance: none;
+    background: #405A51 !important;
+
+   
+}
