@@ -20,3 +20,11 @@ var swiper = new Swiper(".customerSwiper", {
         },
       },
   });
+
+  var swiper = new Swiper(".customerSwiper2", {
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      }
+     
+  });

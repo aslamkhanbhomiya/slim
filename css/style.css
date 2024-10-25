@@ -469,21 +469,9 @@ body{
 .heading-1{
     font-family: "Kanit", sans-serif;
 }
-.about-us-sec{
-    background-image: url("../image/about-bg.jpg");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}
 
-.about-us-sec {
-    @supports (-webkit-touch-callout: none) {
-        background-attachment: initial !important;
-    }
-}
+
+
 .custom-radio:checked{
     background-image: url('data:image/svg+xml,<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="6" cy="6" r="6" fill="%23ED7D4D"/></svg>');
 background-size: 12px;
