@@ -495,10 +495,17 @@ background-size: 12px;
             line-clamp: 6; 
     -webkit-box-orient: vertical;
 }
+.line-limit-2{
+    -webkit-line-clamp: 5 !important; /* number of lines to show */
+    line-clamp: 5 !important;   
+}
 .custom-range::-webkit-slider-thumb{
 
     -webkit-appearance: none;
     background: #405A51 !important;
 
    
+}
+.bg-blur{
+    backdrop-filter: blur(20px);
 }
