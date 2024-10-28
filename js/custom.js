@@ -22,6 +22,8 @@ var swiper = new Swiper(".customerSwiper", {
   });
 
   var swiper = new Swiper(".customerSwiper2", {
+    slidesPerView: 4,
+    spaceBetween: 8,
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
@@ -51,4 +53,15 @@ var swiper = new Swiper(".customerSwiper", {
         },
       },
   });
+
+  var swiper = new Swiper(".SwiperHome3", {
+    slidesPerView: 1,
+    spaceBetween: 15,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    
+  });
+
 
