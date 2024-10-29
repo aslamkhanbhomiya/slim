@@ -509,3 +509,11 @@ background-size: 12px;
 .bg-blur{
     backdrop-filter: blur(20px);
 }
+@media screen and (max-width: 600px) {
+    .bg-postions{
+       background-image: url('../image/hero-responsive.jpg')  !important;
+    }
+    .about-respo{
+        background-image: url('../image/about-responsive.jpg') !important;
+    }
+  }
