@@ -511,7 +511,9 @@ background-size: 12px;
 }
 @media screen and (max-width: 600px) {
     .bg-postions{
-       background-image: url('../image/hero-responsive.jpg')  !important;
+       /* background-image: url('../image/hero-responsive.jpg')  !important;
+        */
+        background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../image/excited-fair.jpg') !important;
     }
     /* .about-respo{
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
