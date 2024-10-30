@@ -513,8 +513,8 @@ background-size: 12px;
     .bg-postions{
        background-image: url('../image/hero-responsive.jpg')  !important;
     }
-    .about-respo{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../image/about-responsive.jpg') !important;
+    /* .about-respo{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     
-    }
+    } */
   }
