@@ -22,7 +22,7 @@ var swiper = new Swiper(".customerSwiper", {
   });
 
   var swiper = new Swiper(".customerSwiper2", {
-    slidesPerView: 4,
+    slidesPerView: 1,
     spaceBetween: 8,
     navigation: {
         nextEl: ".swiper-button-next",
