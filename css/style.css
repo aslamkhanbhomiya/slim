@@ -529,6 +529,7 @@ text-align: left  !important;
 .faq-accordion h2:nth-child(1) .faq-1{
     border-top: 1px solid transparent !important;
 }
+
 .faq-accordion .faq-1:hover{
     background-color: transparent;
 }
